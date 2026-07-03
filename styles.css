@@ -5,7 +5,7 @@
    table collapse, badge wrapping, spacing
    ───────────────────────────────────────────── */
 
-@import url('https://fonts.googleapis.com/css2?family=DM+Serif+Display:ital@0;1&family=Inter:wght@400;500;600&family=DM+Mono:wght@400;500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,700;0,900;1,700&family=Inter:wght@400;500;600&family=DM+Mono:wght@400;500&display=swap');
 
 /* ── TOKENS ── */
 :root {
@@ -21,7 +21,7 @@
   --sage-light:  #C8DDD4;
   --white:       #FDFAF6;
 
-  --font-display: 'DM Serif Display', Georgia, serif;
+  --font-display: 'Playfair Display', Georgia, serif;
   --font-body:    'Inter', system-ui, sans-serif;
   --font-mono:    'DM Mono', 'Courier New', monospace;
 
@@ -126,7 +126,7 @@ ul { list-style: none; }
 }
 .hero-grid {
   display: grid;
-  grid-template-columns: 1fr 320px;
+  grid-template-columns: 1fr 400px;
   gap: clamp(2rem, 4vw, 3.5rem);
   align-items: start;
 }
@@ -190,11 +190,12 @@ ul { list-style: none; }
   background: var(--white);
   border: 1px solid var(--sand-mid);
   border-radius: var(--radius-lg);
-  padding: 1.5rem;
+  padding: 1.75rem;
   box-shadow: var(--shadow-md);
   position: sticky;
   top: 72px;
   min-width: 0;
+  width: 100%;
 }
 .card-kicker {
   font-family: var(--font-mono);
@@ -626,13 +627,13 @@ ul { list-style: none; }
 }
 
 /* ── RESPONSIVE — TABLET ── */
-@media (max-width: 900px) {
+@media (max-width: 960px) {
   .hero-grid {
     grid-template-columns: 1fr;
   }
   .role-card {
     position: static;
-    max-width: 480px;
+    max-width: 540px;
   }
   .table-row {
     grid-template-columns: 150px 1fr;
