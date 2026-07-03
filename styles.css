@@ -5,7 +5,7 @@
    table collapse, badge wrapping, spacing
    ───────────────────────────────────────────── */
 
-@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,700;0,900;1,700&family=Inter:wght@400;500;600&family=DM+Mono:wght@400;500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Libre+Baskerville:wght@700&family=Inter:wght@400;500;600&family=DM+Mono:wght@400;500&display=swap');
 
 /* ── TOKENS ── */
 :root {
@@ -21,7 +21,7 @@
   --sage-light:  #C8DDD4;
   --white:       #FDFAF6;
 
-  --font-display: 'Playfair Display', Georgia, serif;
+  --font-display: 'Libre Baskerville', Georgia, serif;
   --font-body:    'Inter', system-ui, sans-serif;
   --font-mono:    'DM Mono', 'Courier New', monospace;
 
